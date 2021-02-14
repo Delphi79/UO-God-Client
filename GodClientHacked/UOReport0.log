@@ -1,0 +1,1581 @@
+UOReport::message: UOReport: created file 'UOReport0.log' for writing.
+UOReport::message: UOReport: starting up...
+UOReport::message: UOReport: started.
+UOReport::message: reached winmain!
+MemoryManager::start
+MemoryManager::started
+FileManager::startup: starting...
+FileManager::setHDPath: set HDPath to 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\'
+FileManager::addSearchPath: search paths are:
+ C:\Program Files\EA Games\Ultima Online Mondain's Legacy\
+FileManager::setCDPath: set CDPath to 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\'
+FileManager::addSearchPath: search paths are:
+ C:\Program Files\EA Games\Ultima Online Mondain's Legacy\
+ C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\
+FileManager::addSearchPath: search paths are:
+ C:\Program Files\EA Games\Ultima Online Mondain's Legacy\
+ C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\
+ C:\Program Files\EA Games\Ultima Online Mondain's Legacy\tutorial\
+FileManager::addSearchPath: search paths are:
+ C:\Program Files\EA Games\Ultima Online Mondain's Legacy\
+ C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\
+ C:\Program Files\EA Games\Ultima Online Mondain's Legacy\tutorial\
+ C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\tutorial\
+FileManager::startup: search paths are:
+ C:\Program Files\EA Games\Ultima Online Mondain's Legacy\
+ C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\
+ C:\Program Files\EA Games\Ultima Online Mondain's Legacy\tutorial\
+ C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\tutorial\
+UOReport::warning: FileManager::getHDPath: had to startup FileManager. UO startup code needs to be re-designed!
+PerformanceManager::start:
+UOReport::warning: PerformanceManager::getTimer: could not find timer for 'whole frame update'
+UOReport::warning: PerformanceManager::getTimer: could not find timer for 'whole frame update'
+FileManager::startup: starting...
+ConfigurationManager::loadFromFile: begin. file is 'uo.cfg'
+FileManager::open: begin. filename='uo.cfg'
+FileManager::open: finished searching list of opened files.
+FileManager::open: looking for file with name 'as-is' on all search paths.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\uo.cfg' with mode 'r'.
+FileManager::addOpenFile: file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\uo.cfg' added to list. size is 1840.
+FileManager::open: opened 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\uo.cfg' with mode 'r'.
+FileManager::open: seeking to start of file.
+ConfigurationManager::loadFromFile: reading lines...
+ CdRomDataPath=c:\lbr2d
+
+ CacheSize=25
+
+ HdUsage=max
+
+ SavePassword=off
+
+ Password=
+
+ FilterPassword=
+
+ TranslationServerIPAddress=127.0.0.1,28888
+
+ TranslationServerTranslatorName=Systran
+
+ TranslationServerSystranNFWMarker=>?>
+
+ TranslationServerSystranTopicalGlossaries=S
+
+ TranslationServerSystranDocumentType=S
+
+ TranslationServerAutomaticTranslation=true
+
+ TranslationServerClickTranslation=on
+
+ ClientFirstLaunch=no
+
+ AcctID=mercury
+
+ NextLoginKey=93
+
+ LastServerID=0
+
+ PlayerName=lumpyjack
+
+ DefaultChar=2
+
+ ClientLogin=21
+
+ Shadows=on
+
+ ForceModulate=off
+
+ SmallShopItems=off
+
+ LogErrors=off
+
+ RetroContainers=off
+
+ MipMapping=on
+
+ LowQualityTextures=off
+
+ LowQualityShadows=off
+
+ SwayingTrees=on
+
+ ScreenShakeEffects=on
+
+ NextLoginKey=93
+
+ ;------------------------------
+
+UOReport::warning: ConfigurationManager::addToList: new_configuration->name == 0 || new_configuration->value == 0. this is no use to me.
+ Sound=on
+
+ Music=off
+
+ Footsteps=on
+
+ AllowPathfind=on
+
+ HoldTabForCombat=on
+
+ OffsetGumps=on
+
+ AutoArrangeMinimized=on
+
+ AssumePlayAsGhost=on
+
+ UseCircleTrans=on
+
+ ScaleBarkTimes=on
+
+ FrameSkipping=off
+
+ NotorietyQuery=on
+
+ ShowIntroAnim=off
+
+ OrderCacheOnStartup=off
+
+ SaveJournal=off
+
+ JournalSaveUnicode=off
+
+ GlobalQueue=off
+
+ FilterPWOn=off
+
+ ObscenityFilter=off
+
+ FullScreen=off
+
+ UseToolTips=on
+
+ PopupHelpEnabled=off
+
+ PopupHelpSticky=off
+
+ PopupHelpPersistant=on
+
+ TranslationServer=on
+
+ TranslationServerAutomatic=on
+
+ ColoredLighting=on
+
+ ShadedFonts=off
+
+ ShowIncomingNames=on
+
+ StatReport=on
+
+ DarkNights=off
+
+ AlwaysRun=off
+
+ NewbieDesktop=on
+
+ TreeCanopies=off
+
+ Desolation=on
+
+ CombatMusic=on
+
+ ColorOutOfRange=on
+
+ ShiftForContext=off
+
+ DisableMenubar=off
+
+ ItemPropsIcon=off
+
+ CollectMetrics=on
+
+ ObjectHandles=on
+
+ IgnoreGuildChat=off
+
+ IgnoreAllianceChat=off
+
+ ReduceFramerate=off
+
+ CurrentStatusGump=off
+
+ UnicodeSpeech=on
+
+ PartyMessageColor=368
+
+ CircleTransRadius=200
+
+ BuffIconsGumpOrientation=2
+
+ BuffIconsGumpMinMinorAxisSize=2
+
+ ShowBuffIconsGumpAtStartup=0
+
+ FullScreenRes=1024x768
+
+ GamePlayWindowSize=800x600
+
+FileManager::close: closing file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\uo.cfg'.
+ConfigurationManager::loadFromFile: end.
+ConfigurationManager::report: the following configurations are set:
+ CdRomDataPath = c:\lbr2d
+
+ CacheSize = 25
+
+ HdUsage = max
+
+ SavePassword = off
+
+ Password = 
+
+ FilterPassword = 
+
+ TranslationServerIPAddress = 127.0.0.1,28888
+
+ TranslationServerTranslatorName = Systran
+
+ TranslationServerSystranNFWMarker = >?>
+
+ TranslationServerSystranTopicalGlossaries = S
+
+ TranslationServerSystranDocumentType = S
+
+ TranslationServerAutomaticTranslation = true
+
+ TranslationServerClickTranslation = on
+
+ ClientFirstLaunch = no
+
+ AcctID = mercury
+
+ NextLoginKey = 93
+
+ LastServerID = 0
+
+ PlayerName = lumpyjack
+
+ DefaultChar = 2
+
+ ClientLogin = 21
+
+ Shadows = on
+
+ ForceModulate = off
+
+ SmallShopItems = off
+
+ LogErrors = off
+
+ RetroContainers = off
+
+ MipMapping = on
+
+ LowQualityTextures = off
+
+ LowQualityShadows = off
+
+ SwayingTrees = on
+
+ ScreenShakeEffects = on
+
+ NextLoginKey = 93
+
+ Sound = on
+
+ Music = off
+
+ Footsteps = on
+
+ AllowPathfind = on
+
+ HoldTabForCombat = on
+
+ OffsetGumps = on
+
+ AutoArrangeMinimized = on
+
+ AssumePlayAsGhost = on
+
+ UseCircleTrans = on
+
+ ScaleBarkTimes = on
+
+ FrameSkipping = off
+
+ NotorietyQuery = on
+
+ ShowIntroAnim = off
+
+ OrderCacheOnStartup = off
+
+ SaveJournal = off
+
+ JournalSaveUnicode = off
+
+ GlobalQueue = off
+
+ FilterPWOn = off
+
+ ObscenityFilter = off
+
+ FullScreen = off
+
+ UseToolTips = on
+
+ PopupHelpEnabled = off
+
+ PopupHelpSticky = off
+
+ PopupHelpPersistant = on
+
+ TranslationServer = on
+
+ TranslationServerAutomatic = on
+
+ ColoredLighting = on
+
+ ShadedFonts = off
+
+ ShowIncomingNames = on
+
+ StatReport = on
+
+ DarkNights = off
+
+ AlwaysRun = off
+
+ NewbieDesktop = on
+
+ TreeCanopies = off
+
+ Desolation = on
+
+ CombatMusic = on
+
+ ColorOutOfRange = on
+
+ ShiftForContext = off
+
+ DisableMenubar = off
+
+ ItemPropsIcon = off
+
+ CollectMetrics = on
+
+ ObjectHandles = on
+
+ IgnoreGuildChat = off
+
+ IgnoreAllianceChat = off
+
+ ReduceFramerate = off
+
+ CurrentStatusGump = off
+
+ UnicodeSpeech = on
+
+ PartyMessageColor = 368
+
+ CircleTransRadius = 200
+
+ BuffIconsGumpOrientation = 2
+
+ BuffIconsGumpMinMinorAxisSize = 2
+
+ ShowBuffIconsGumpAtStartup = 0
+
+ FullScreenRes = 1024x768
+
+ GamePlayWindowSize = 800x600
+
+UOReport::message: MouseManager::startup: begin.
+UOReport::message: GraphicManager::startup: begin.
+FileManager::open: begin. filename='palette.mul'
+FileManager::open: finished searching list of opened files.
+FileManager::open: looking for file with name 'as-is' on all search paths.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\palette.mul' with mode 'rb'.
+FileManager::addOpenFile: file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\palette.mul' added to list. size is 768.
+FileManager::open: opened 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\palette.mul' with mode 'rb'.
+FileManager::open: seeking to start of file.
+FileManager::close: closing file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\palette.mul'.
+FileManager::open: begin. filename='animinfo.mul'
+FileManager::open: finished searching list of opened files.
+FileManager::open: looking for file with name 'as-is' on all search paths.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\animinfo.mul' with mode 'rb'.
+FileManager::addOpenFile: file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\animinfo.mul' added to list. size is 2000.
+FileManager::open: opened 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\animinfo.mul' with mode 'rb'.
+FileManager::open: seeking to start of file.
+FileManager::close: closing file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\animinfo.mul'.
+UOReport::message: DrawManager::startup: begin.
+UOReport::message: TextManager::startup: begin.
+FileManager::open: begin. filename='disallowedJournalHueList.cfg'
+FileManager::open: finished searching list of opened files.
+FileManager::open: looking for file with name 'as-is' on all search paths.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\disallowedJournalHueList.cfg' with mode 'r'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\disallowedJournalHueList.cfg' with mode 'r'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\tutorial\disallowedJournalHueList.cfg' with mode 'r'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\tutorial\disallowedJournalHueList.cfg' with mode 'r'.
+UOReport::warning: FileManager::open: failed to open 'disallowedJournalHueList.cfg' with given mode 'r' on any of paths in searchPaths.
+UOReport::warning: FileManager::open ('fuzzy find'): looking for 'disallowedJournalHueList.cfg' on searchPaths, but ignoring case.
+UOReport::warning: FileManager::open: failed to open 'disallowedJournalHueList.cfg' with given mode 'r' on any of paths in searchPaths, even by ignoring case.
+UOReport::message: MapManager::startup: begin.
+UOReport::message: SkipDrawHandler::startup: begin.
+EditManager::startup: starting...
+EditManager::startup: started.
+UOReport::message: CVersionManager::startup: begin.
+UOReport::message: HueManager::startup: begin.FileManager::open: begin. filename='hues.mul'
+FileManager::open: finished searching list of opened files.
+FileManager::open: looking for file with name 'as-is' on all search paths.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\hues.mul' with mode 'rb'.
+FileManager::addOpenFile: file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\hues.mul' added to list. size is 265500.
+FileManager::open: opened 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\hues.mul' with mode 'rb'.
+FileManager::open: seeking to start of file.
+FileManager::close: closing file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\hues.mul'.
+FontManager::startup: starting...
+FileManager::open: begin. filename='fonts.mul'
+FileManager::open: finished searching list of opened files.
+FileManager::open: looking for file with name 'as-is' on all search paths.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\fonts.mul' with mode 'rb'.
+FileManager::addOpenFile: file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\fonts.mul' added to list. size is 884909.
+FileManager::open: opened 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\fonts.mul' with mode 'rb'.
+FileManager::open: seeking to start of file.
+UOReport::message: CFont::CFont(): begin.
+UOReport::message: CFont::CFont(): begin.
+UOReport::message: CFont::CFont(): begin.
+UOReport::message: CFont::CFont(): begin.
+UOReport::message: CFont::CFont(): begin.
+UOReport::message: CFont::CFont(): begin.
+UOReport::message: CFont::CFont(): begin.
+UOReport::message: CFont::CFont(): begin.
+UOReport::message: CFont::CFont(): begin.
+UOReport::message: CFont::CFont(): begin.
+FileManager::close: closing file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\fonts.mul'.
+FontManager::startup: started.
+UOReport::message: CObjectManager::startup: begin.
+FileManager::open: begin. filename='tiledata.mul'
+FileManager::open: finished searching list of opened files.
+FileManager::open: looking for file with name 'as-is' on all search paths.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\tiledata.mul' with mode 'rb'.
+FileManager::addOpenFile: file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\tiledata.mul' added to list. size is 1036288.
+FileManager::open: opened 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\tiledata.mul' with mode 'rb'.
+FileManager::open: seeking to start of file.
+FileManager::close: closing file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\tiledata.mul'.
+UOReport::message: CGumpManager::startup(): begin.
+FileManager::open: begin. filename='skillgrp.mul'
+FileManager::open: finished searching list of opened files.
+FileManager::open: looking for file with name 'as-is' on all search paths.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\skillgrp.mul' with mode 'rb'.
+FileManager::addOpenFile: file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\skillgrp.mul' added to list. size is 330.
+FileManager::open: opened 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\skillgrp.mul' with mode 'rb'.
+FileManager::open: seeking to start of file.
+FileManager::close: closing file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\skillgrp.mul'.
+UOReport::message: PacketManager::startup: begin.
+UOReport::message: CWinApp::startup(): begin.
+UOReport::message: CDHDCache::startup(): begin.
+FileManager::open: begin. filename='uo.cfg'
+FileManager::open: file 'uo.cfg' now open 2 times.
+FileManager::open: finished searching list of opened files.
+FileManager::open: seeking to start of file.
+FileManager::close: closing file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\uo.cfg'.
+FileManager::open: begin. filename='login.cfg'
+FileManager::open: finished searching list of opened files.
+FileManager::open: looking for file with name 'as-is' on all search paths.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\login.cfg' with mode 'r'.
+FileManager::addOpenFile: file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\login.cfg' added to list. size is 231.
+FileManager::open: opened 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\login.cfg' with mode 'r'.
+FileManager::open: seeking to start of file.
+FileManager::close: closing file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\login.cfg'.
+FileManager::open: begin. filename='chardata.mul'
+FileManager::open: finished searching list of opened files.
+FileManager::open: looking for file with name 'as-is' on all search paths.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\chardata.mul' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\chardata.mul' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\tutorial\chardata.mul' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\tutorial\chardata.mul' with mode 'rb'.
+UOReport::warning: FileManager::open: failed to open 'chardata.mul' with given mode 'rb' on any of paths in searchPaths.
+UOReport::warning: FileManager::open ('fuzzy find'): looking for 'chardata.mul' on searchPaths, but ignoring case.
+UOReport::warning: FileManager::open: failed to open 'chardata.mul' with given mode 'rb' on any of paths in searchPaths, even by ignoring case.
+CApp::LoadCharData: cannot open file 'chardata.mul'.
+UOReport::warning: CDHDCache::CacheIn: code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::GetCacheItem(2): code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::CacheIn: code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::GetCacheItem(2): code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::CacheIn: code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::GetCacheItem(2): code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::CacheIn: code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::GetCacheItem(2): code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::CacheIn: code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::GetCacheItem(2): code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::CacheIn: code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::GetCacheItem(2): code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::CacheIn: code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::GetCacheItem(2): code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::CacheIn: code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::GetCacheItem(2): code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::CacheIn: code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::GetCacheItem(2): code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::CacheIn: code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::GetCacheItem(2): code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::CacheIn: code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::GetCacheItem(2): code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::CacheIn: code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::GetCacheItem(2): code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::CacheIn: code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::GetCacheItem(2): code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::CacheIn: code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::GetCacheItem(2): code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::CacheIn: code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::GetCacheItem(2): code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::CacheIn: code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::GetCacheItem(2): code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::CacheIn: code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::GetCacheItem(2): code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::CacheIn: code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::GetCacheItem(2): code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::CacheIn: code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::GetCacheItem(2): code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::CacheIn: code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::GetCacheItem(2): code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::CacheIn: code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::GetCacheItem(2): code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::CacheIn: code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::GetCacheItem(2): code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::CacheIn: code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::GetCacheItem(2): code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::CacheIn: code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::GetCacheItem(2): code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::CacheIn: code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::GetCacheItem(2): code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::CacheIn: code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::GetCacheItem(2): code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::CacheIn: code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::GetCacheItem(2): code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::CacheIn: code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::GetCacheItem(2): code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::CacheIn: code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::GetCacheItem(2): code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::CacheIn: code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::GetCacheItem(2): code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::CacheIn: code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::GetCacheItem(2): code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::CacheIn: code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::GetCacheItem(2): code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::CacheIn: code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::GetCacheItem(2): code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::CacheIn: code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::GetCacheItem(2): code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::CacheIn: code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::GetCacheItem(2): code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::CacheIn: code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::GetCacheItem(2): code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::CacheIn: code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::GetCacheItem(2): code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::CacheIn: code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::GetCacheItem(2): code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::CacheIn: code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::GetCacheItem(2): code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::CacheIn: code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::GetCacheItem(2): code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::CacheIn: code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::GetCacheItem(2): code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::CacheIn: code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::GetCacheItem(2): code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::CacheIn: code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::GetCacheItem(2): code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::CacheIn: code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::GetCacheItem(2): code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::CacheIn: code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::GetCacheItem(2): code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::CacheIn: code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::GetCacheItem(2): code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::CacheIn: code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::GetCacheItem(2): code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::CacheIn: code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::GetCacheItem(2): code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::CacheIn: code would have crashed. returning 0 instead.
+UOReport::warning: CDHDCache::GetCacheItem(2): code would have crashed. returning 0 instead.
+FileManager::open: begin. filename='keynames.txt'
+FileManager::open: finished searching list of opened files.
+FileManager::open: looking for file with name 'as-is' on all search paths.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\keynames.txt' with mode 'r'.
+FileManager::addOpenFile: file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\keynames.txt' added to list. size is 410.
+FileManager::open: opened 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\keynames.txt' with mode 'r'.
+FileManager::open: seeking to start of file.
+FileManager::close: closing file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\keynames.txt'.
+FileManager::open: begin. filename='macros.txt'
+FileManager::open: finished searching list of opened files.
+FileManager::open: looking for file with name 'as-is' on all search paths.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\macros.txt' with mode 'rt'.
+FileManager::addOpenFile: file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\macros.txt' added to list. size is 1154.
+FileManager::open: opened 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\macros.txt' with mode 'rt'.
+FileManager::open: seeking to start of file.
+FileManager::close: closing file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\macros.txt'.
+FileManager::open: begin. filename='speech.mul'
+FileManager::open: finished searching list of opened files.
+FileManager::open: looking for file with name 'as-is' on all search paths.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\speech.mul' with mode 'rb'.
+FileManager::addOpenFile: file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\speech.mul' added to list. size is 119714.
+FileManager::open: opened 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\speech.mul' with mode 'rb'.
+FileManager::open: seeking to start of file.
+FileManager::close: closing file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\speech.mul'.
+UOReport::message: MusicManager::CMusicManager(): begin.
+UOReport::message: SoundManager::CSoundManager(): begin.
+UOReport::message: PathManager::startup: begin.
+UOReport::message: MultiManager::startup: begin.
+UOReport::message: ResourceTypeManager::startup: begin.
+FileManager::open: begin. filename='regions.mul'
+FileManager::open: finished searching list of opened files.
+FileManager::open: looking for file with name 'as-is' on all search paths.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\regions.mul' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\regions.mul' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\tutorial\regions.mul' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\tutorial\regions.mul' with mode 'rb'.
+UOReport::warning: FileManager::open: failed to open 'regions.mul' with given mode 'rb' on any of paths in searchPaths.
+UOReport::warning: FileManager::open ('fuzzy find'): looking for 'regions.mul' on searchPaths, but ignoring case.
+UOReport::warning: FileManager::open: failed to open 'regions.mul' with given mode 'rb' on any of paths in searchPaths, even by ignoring case.
+UOReport::warning: RegionManager::readRegionsIntoMemory: cannot open file 'regions.mul'.
+UOReport::message: WeatherManager::startup: begin.
+UOReport::message: TreeCrap::CTreeCrap(): begin.
+FileManager::open: begin. filename='animdata.mul'
+FileManager::open: finished searching list of opened files.
+FileManager::open: looking for file with name 'as-is' on all search paths.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\animdata.mul' with mode 'rb'.
+FileManager::addOpenFile: file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\animdata.mul' added to list. size is 1122304.
+FileManager::open: opened 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\animdata.mul' with mode 'rb'.
+FileManager::open: seeking to start of file.
+FileManager::close: closing file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\animdata.mul'.
+thelightthingie::startup:UOReport::message: CMMF::CMMF: begin. file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\\lightidx.mul'
+UOReport::message: CMMF::CMMF: begin. file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\\light.mul'
+FileManager::open: begin. filename='uobscene.lst'
+FileManager::open: finished searching list of opened files.
+FileManager::open: looking for file with name 'as-is' on all search paths.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\uobscene.lst' with mode 'rb'.
+FileManager::addOpenFile: file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\uobscene.lst' added to list. size is 1048.
+FileManager::open: opened 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\uobscene.lst' with mode 'rb'.
+FileManager::open: seeking to start of file.
+FileManager::close: closing file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\uobscene.lst'.
+FileManager::open: begin. filename='ignore.lst'
+FileManager::open: finished searching list of opened files.
+FileManager::open: looking for file with name 'as-is' on all search paths.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\ignore.lst' with mode 'rb'.
+FileManager::addOpenFile: file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\ignore.lst' added to list. size is 0.
+FileManager::open: opened 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\ignore.lst' with mode 'rb'.
+FileManager::open: seeking to start of file.
+UOReport::warning: FileManager::read: items_read(0) != count(30)
+FileManager::close: closing file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\ignore.lst'.
+CDHDCache::Init(): begin.
+CDHDCache::Init(): CApp::hdConfig == MaxHD.
+UOReport::message: CMMF::CMMF: begin. file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\\map0.mul'
+UOReport::message: CMMF::CMMF: begin. file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\\staidx0.mul'
+UOReport::message: CMMF::CMMF: begin. file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\\statics0.mul'
+UOReport::message: CMMF::CMMF: begin. file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\\artidx.mul'
+UOReport::message: CMMF::CMMF: begin. file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\\art.mul'
+UOReport::message: CMMF::CMMF: begin. file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\\anim.idx'
+UOReport::message: CMMF::CMMF: begin. file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\\anim.mul'
+UOReport::message: CMMF::CMMF: begin. file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\\soundidx.mul'
+UOReport::message: CMMF::CMMF: begin. file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\\sound.mul'
+UOReport::message: CMMF::CMMF: begin. file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\\texidx.mul'
+UOReport::message: CMMF::CMMF: begin. file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\\texmaps.mul'
+UOReport::message: CMMF::CMMF: begin. file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\\gumpidx.mul'
+UOReport::message: CMMF::CMMF: begin. file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\\gumpart.mul'
+UOReport::message: CMMF::CMMF: begin. file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\\multi.idx'
+UOReport::message: CMMF::CMMF: begin. file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\\multi.mul'
+UOReport::message: CMMF::CMMF: begin. file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\\skills.idx'
+UOReport::message: CMMF::CMMF: begin. file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\\skills.mul'
+UOReport::message: CMMF::CMMF: begin. file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\\map2.mul'
+UOReport::message: CMMF::CMMF: begin. file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\\staidx2.mul'
+UOReport::message: CMMF::CMMF: begin. file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\\statics2.mul'
+LoadVersionFile(): begin.
+FileManager::open: begin. filename='verdata.mul'
+FileManager::open: finished searching list of opened files.
+FileManager::open: looking for file with name 'as-is' on all search paths.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\verdata.mul' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\verdata.mul' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\tutorial\verdata.mul' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\tutorial\verdata.mul' with mode 'rb'.
+UOReport::warning: FileManager::open: failed to open 'verdata.mul' with given mode 'rb' on any of paths in searchPaths.
+UOReport::warning: FileManager::open ('fuzzy find'): looking for 'verdata.mul' on searchPaths, but ignoring case.
+UOReport::warning: FileManager::open: failed to open 'verdata.mul' with given mode 'rb' on any of paths in searchPaths, even by ignoring case.
+UOReport::message: MainWindow::MainWindow(): begin.
+UOReport::message: CStreamBuf::CStreamBuf(): begin.
+UOReport::message: CStreamBuf::CStreamBuf(): begin.
+UOReport::message: CStreamBuf::CStreamBuf(): begin.
+UOReport::message: CStreamBuf::CStreamBuf(): begin.
+UOReport::message: CStreamBuf::CStreamBuf(): begin.
+UOReport::message: CStreamBuf::CStreamBuf(): begin.
+UOReport::message: CStreamBuf::CStreamBuf(): begin.
+UOReport::message: CStreamBuf::CStreamBuf(): begin.
+UOReport::message: CNetInfo::CNetInfo(): begin.
+FileManager::open: begin. filename='language\langcode.iff'
+FileManager::open: finished searching list of opened files.
+FileManager::open: looking for file with name 'as-is' on all search paths.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\language\langcode.iff' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\language\langcode.iff' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\tutorial\language\langcode.iff' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\tutorial\language\langcode.iff' with mode 'rb'.
+UOReport::warning: FileManager::open: failed to open 'language\langcode.iff' with given mode 'rb' on any of paths in searchPaths.
+UOReport::warning: FileManager::open ('fuzzy find'): looking for 'language\langcode.iff' on searchPaths, but ignoring case.
+UOReport::warning: FileManager::open: failed to open 'language\langcode.iff' with given mode 'rb' on any of paths in searchPaths, even by ignoring case.
+UOReport::warning: FileManager::load: failed to load 'language\langcode.iff'.
+FileManager::open: begin. filename='langcode.iff'
+FileManager::open: finished searching list of opened files.
+FileManager::open: looking for file with name 'as-is' on all search paths.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\langcode.iff' with mode 'rb'.
+FileManager::addOpenFile: file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\langcode.iff' added to list. size is 4612.
+FileManager::open: opened 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\langcode.iff' with mode 'rb'.
+FileManager::open: seeking to start of file.
+FileManager::load: file 'langcode.iff'. allocating 4612 bytes of memory
+FileManager::close: closing file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\langcode.iff'.
+LanguageManager::loadLanguageCodes: loaded 4612 bytes from file 'langcode.iff'.
+LanguageManager::loadLanguageCodes: loaded language codes.
+LanguageManager::setLanguageDefaults: start...
+LanguageManager::setUserLanguageCodeString: userLanguageCodeString='ENA'.
+LanguageManager::setLanguageDefaults: stop...
+FileManager::open: begin. filename='uo.cfg'
+FileManager::open: file 'uo.cfg' now open 3 times.
+FileManager::open: finished searching list of opened files.
+FileManager::open: seeking to start of file.
+getUOCfgDirective: found 'CdRomDataPath'.
+getUOCfgDirective: found 'CacheSize'.
+getUOCfgDirective: found 'HdUsage'.
+getUOCfgDirective: found 'SavePassword'.
+getUOCfgDirective: found 'Password'.
+getUOCfgDirective: found 'FilterPassword'.
+getUOCfgDirective: found 'TranslationServerIPAddress'.
+getUOCfgDirective: found 'TranslationServerTranslatorName'.
+getUOCfgDirective: found 'TranslationServerSystranNFWMarker'.
+getUOCfgDirective: found 'TranslationServerSystranTopicalGlossaries'.
+getUOCfgDirective: found 'TranslationServerSystranDocumentType'.
+getUOCfgDirective: found 'TranslationServerAutomaticTranslation'.
+getUOCfgDirective: found 'TranslationServerClickTranslation'.
+getUOCfgDirective: found 'ClientFirstLaunch'.
+getUOCfgDirective: found 'AcctID'.
+getUOCfgDirective: found 'NextLoginKey'.
+getUOCfgDirective: found 'LastServerID'.
+getUOCfgDirective: found 'PlayerName'.
+getUOCfgDirective: found 'DefaultChar'.
+getUOCfgDirective: found 'ClientLogin'.
+getUOCfgDirective: found 'Shadows'.
+getUOCfgDirective: found 'ForceModulate'.
+getUOCfgDirective: found 'SmallShopItems'.
+getUOCfgDirective: found 'LogErrors'.
+getUOCfgDirective: found 'RetroContainers'.
+getUOCfgDirective: found 'MipMapping'.
+getUOCfgDirective: found 'LowQualityTextures'.
+getUOCfgDirective: found 'LowQualityShadows'.
+getUOCfgDirective: found 'SwayingTrees'.
+getUOCfgDirective: found 'ScreenShakeEffects'.
+getUOCfgDirective: found 'NextLoginKey'.
+getUOCfgDirective: found ';------------------------------'.
+getUOCfgDirective: found 'Sound'.
+getUOCfgDirective: found 'Music'.
+getUOCfgDirective: found 'Footsteps'.
+getUOCfgDirective: found 'AllowPathfind'.
+getUOCfgDirective: found 'HoldTabForCombat'.
+getUOCfgDirective: found 'OffsetGumps'.
+getUOCfgDirective: found 'AutoArrangeMinimized'.
+getUOCfgDirective: found 'AssumePlayAsGhost'.
+getUOCfgDirective: found 'UseCircleTrans'.
+getUOCfgDirective: found 'ScaleBarkTimes'.
+getUOCfgDirective: found 'FrameSkipping'.
+getUOCfgDirective: found 'NotorietyQuery'.
+getUOCfgDirective: found 'ShowIntroAnim'.
+getUOCfgDirective: found 'OrderCacheOnStartup'.
+getUOCfgDirective: found 'SaveJournal'.
+getUOCfgDirective: found 'JournalSaveUnicode'.
+getUOCfgDirective: found 'GlobalQueue'.
+getUOCfgDirective: found 'FilterPWOn'.
+getUOCfgDirective: found 'ObscenityFilter'.
+getUOCfgDirective: found 'FullScreen'.
+getUOCfgDirective: found 'UseToolTips'.
+getUOCfgDirective: found 'PopupHelpEnabled'.
+getUOCfgDirective: found 'PopupHelpSticky'.
+getUOCfgDirective: found 'PopupHelpPersistant'.
+getUOCfgDirective: found 'TranslationServer'.
+getUOCfgDirective: found 'TranslationServerAutomatic'.
+getUOCfgDirective: found 'ColoredLighting'.
+getUOCfgDirective: found 'ShadedFonts'.
+getUOCfgDirective: found 'ShowIncomingNames'.
+getUOCfgDirective: found 'StatReport'.
+getUOCfgDirective: found 'DarkNights'.
+getUOCfgDirective: found 'AlwaysRun'.
+getUOCfgDirective: found 'NewbieDesktop'.
+getUOCfgDirective: found 'TreeCanopies'.
+getUOCfgDirective: found 'Desolation'.
+getUOCfgDirective: found 'CombatMusic'.
+getUOCfgDirective: found 'ColorOutOfRange'.
+getUOCfgDirective: found 'ShiftForContext'.
+getUOCfgDirective: found 'DisableMenubar'.
+getUOCfgDirective: found 'ItemPropsIcon'.
+getUOCfgDirective: found 'CollectMetrics'.
+getUOCfgDirective: found 'ObjectHandles'.
+getUOCfgDirective: found 'IgnoreGuildChat'.
+getUOCfgDirective: found 'IgnoreAllianceChat'.
+getUOCfgDirective: found 'ReduceFramerate'.
+getUOCfgDirective: found 'CurrentStatusGump'.
+getUOCfgDirective: found 'UnicodeSpeech'.
+getUOCfgDirective: found 'PartyMessageColor'.
+getUOCfgDirective: found 'CircleTransRadius'.
+getUOCfgDirective: found 'BuffIconsGumpOrientation'.
+getUOCfgDirective: found 'BuffIconsGumpMinMinorAxisSize'.
+getUOCfgDirective: found 'ShowBuffIconsGumpAtStartup'.
+getUOCfgDirective: found 'FullScreenRes'.
+getUOCfgDirective: found 'GamePlayWindowSize'.
+FileManager::close: closing file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\uo.cfg'.
+LanguageManager::findSupportedLanguages.
+LanguageManager::preLoad.
+LanguageManager::preLoad: user language set to 'ENA'.
+FileManager::open: begin. filename='intro.ENA'
+FileManager::open: finished searching list of opened files.
+FileManager::open: looking for file with name 'as-is' on all search paths.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\intro.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\intro.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\tutorial\intro.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\tutorial\intro.ENA' with mode 'rb'.
+UOReport::warning: FileManager::open: failed to open 'intro.ENA' with given mode 'rb' on any of paths in searchPaths.
+UOReport::warning: FileManager::open ('fuzzy find'): looking for 'intro.ENA' on searchPaths, but ignoring case.
+UOReport::warning: FileManager::open: failed to open 'intro.ENA' with given mode 'rb' on any of paths in searchPaths, even by ignoring case.
+UOReport::warning: FileManager::load: failed to load 'intro.ENA'.
+FileManager::open: begin. filename='language\intro.ENA'
+FileManager::open: finished searching list of opened files.
+FileManager::open: looking for file with name 'as-is' on all search paths.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\language\intro.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\language\intro.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\tutorial\language\intro.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\tutorial\language\intro.ENA' with mode 'rb'.
+UOReport::warning: FileManager::open: failed to open 'language\intro.ENA' with given mode 'rb' on any of paths in searchPaths.
+UOReport::warning: FileManager::open ('fuzzy find'): looking for 'language\intro.ENA' on searchPaths, but ignoring case.
+UOReport::warning: FileManager::open: failed to open 'language\intro.ENA' with given mode 'rb' on any of paths in searchPaths, even by ignoring case.
+UOReport::warning: FileManager::load: failed to load 'language\intro.ENA'.
+FileManager::open: begin. filename='intro.ENA'
+FileManager::open: finished searching list of opened files.
+FileManager::open: looking for file with name 'as-is' on all search paths.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\intro.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\intro.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\tutorial\intro.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\tutorial\intro.ENA' with mode 'rb'.
+UOReport::warning: FileManager::open: failed to open 'intro.ENA' with given mode 'rb' on any of paths in searchPaths.
+UOReport::warning: FileManager::open ('fuzzy find'): looking for 'intro.ENA' on searchPaths, but ignoring case.
+UOReport::warning: FileManager::open: failed to open 'intro.ENA' with given mode 'rb' on any of paths in searchPaths, even by ignoring case.
+UOReport::warning: FileManager::load: failed to load 'intro.ENA'.
+FileManager::open: begin. filename='language\intro.ENA'
+FileManager::open: finished searching list of opened files.
+FileManager::open: looking for file with name 'as-is' on all search paths.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\language\intro.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\language\intro.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\tutorial\language\intro.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\tutorial\language\intro.ENA' with mode 'rb'.
+UOReport::warning: FileManager::open: failed to open 'language\intro.ENA' with given mode 'rb' on any of paths in searchPaths.
+UOReport::warning: FileManager::open ('fuzzy find'): looking for 'language\intro.ENA' on searchPaths, but ignoring case.
+UOReport::warning: FileManager::open: failed to open 'language\intro.ENA' with given mode 'rb' on any of paths in searchPaths, even by ignoring case.
+UOReport::warning: FileManager::load: failed to load 'language\intro.ENA'.
+FileManager::open: begin. filename='intro.enu'
+FileManager::open: finished searching list of opened files.
+FileManager::open: looking for file with name 'as-is' on all search paths.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\intro.enu' with mode 'rb'.
+FileManager::addOpenFile: file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\intro.enu' added to list. size is 1816.
+FileManager::open: opened 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\intro.enu' with mode 'rb'.
+FileManager::open: seeking to start of file.
+FileManager::load: file 'intro.enu'. allocating 1816 bytes of memory
+FileManager::close: closing file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\intro.enu'.
+FileManager::open: begin. filename='gt_0000.ENA'
+FileManager::open: finished searching list of opened files.
+FileManager::open: looking for file with name 'as-is' on all search paths.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\gt_0000.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\gt_0000.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\tutorial\gt_0000.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\tutorial\gt_0000.ENA' with mode 'rb'.
+UOReport::warning: FileManager::open: failed to open 'gt_0000.ENA' with given mode 'rb' on any of paths in searchPaths.
+UOReport::warning: FileManager::open ('fuzzy find'): looking for 'gt_0000.ENA' on searchPaths, but ignoring case.
+UOReport::warning: FileManager::open: failed to open 'gt_0000.ENA' with given mode 'rb' on any of paths in searchPaths, even by ignoring case.
+UOReport::warning: FileManager::load: failed to load 'gt_0000.ENA'.
+FileManager::open: begin. filename='language\gt_0000.ENA'
+FileManager::open: finished searching list of opened files.
+FileManager::open: looking for file with name 'as-is' on all search paths.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\language\gt_0000.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\language\gt_0000.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\tutorial\language\gt_0000.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\tutorial\language\gt_0000.ENA' with mode 'rb'.
+UOReport::warning: FileManager::open: failed to open 'language\gt_0000.ENA' with given mode 'rb' on any of paths in searchPaths.
+UOReport::warning: FileManager::open ('fuzzy find'): looking for 'language\gt_0000.ENA' on searchPaths, but ignoring case.
+UOReport::warning: FileManager::open: failed to open 'language\gt_0000.ENA' with given mode 'rb' on any of paths in searchPaths, even by ignoring case.
+UOReport::warning: FileManager::load: failed to load 'language\gt_0000.ENA'.
+FileManager::open: begin. filename='gt_0000.ENA'
+FileManager::open: finished searching list of opened files.
+FileManager::open: looking for file with name 'as-is' on all search paths.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\gt_0000.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\gt_0000.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\tutorial\gt_0000.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\tutorial\gt_0000.ENA' with mode 'rb'.
+UOReport::warning: FileManager::open: failed to open 'gt_0000.ENA' with given mode 'rb' on any of paths in searchPaths.
+UOReport::warning: FileManager::open ('fuzzy find'): looking for 'gt_0000.ENA' on searchPaths, but ignoring case.
+UOReport::warning: FileManager::open: failed to open 'gt_0000.ENA' with given mode 'rb' on any of paths in searchPaths, even by ignoring case.
+UOReport::warning: FileManager::load: failed to load 'gt_0000.ENA'.
+FileManager::open: begin. filename='language\gt_0000.ENA'
+FileManager::open: finished searching list of opened files.
+FileManager::open: looking for file with name 'as-is' on all search paths.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\language\gt_0000.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\language\gt_0000.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\tutorial\language\gt_0000.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\tutorial\language\gt_0000.ENA' with mode 'rb'.
+UOReport::warning: FileManager::open: failed to open 'language\gt_0000.ENA' with given mode 'rb' on any of paths in searchPaths.
+UOReport::warning: FileManager::open ('fuzzy find'): looking for 'language\gt_0000.ENA' on searchPaths, but ignoring case.
+UOReport::warning: FileManager::open: failed to open 'language\gt_0000.ENA' with given mode 'rb' on any of paths in searchPaths, even by ignoring case.
+UOReport::warning: FileManager::load: failed to load 'language\gt_0000.ENA'.
+FileManager::open: begin. filename='gt_0000.enu'
+FileManager::open: finished searching list of opened files.
+FileManager::open: looking for file with name 'as-is' on all search paths.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\gt_0000.enu' with mode 'rb'.
+FileManager::addOpenFile: file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\gt_0000.enu' added to list. size is 124.
+FileManager::open: opened 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\gt_0000.enu' with mode 'rb'.
+FileManager::open: seeking to start of file.
+FileManager::load: file 'gt_0000.enu'. allocating 124 bytes of memory
+FileManager::close: closing file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\gt_0000.enu'.
+FileManager::open: begin. filename='gt_1010.ENA'
+FileManager::open: finished searching list of opened files.
+FileManager::open: looking for file with name 'as-is' on all search paths.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\gt_1010.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\gt_1010.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\tutorial\gt_1010.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\tutorial\gt_1010.ENA' with mode 'rb'.
+UOReport::warning: FileManager::open: failed to open 'gt_1010.ENA' with given mode 'rb' on any of paths in searchPaths.
+UOReport::warning: FileManager::open ('fuzzy find'): looking for 'gt_1010.ENA' on searchPaths, but ignoring case.
+UOReport::warning: FileManager::open: failed to open 'gt_1010.ENA' with given mode 'rb' on any of paths in searchPaths, even by ignoring case.
+UOReport::warning: FileManager::load: failed to load 'gt_1010.ENA'.
+FileManager::open: begin. filename='language\gt_1010.ENA'
+FileManager::open: finished searching list of opened files.
+FileManager::open: looking for file with name 'as-is' on all search paths.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\language\gt_1010.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\language\gt_1010.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\tutorial\language\gt_1010.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\tutorial\language\gt_1010.ENA' with mode 'rb'.
+UOReport::warning: FileManager::open: failed to open 'language\gt_1010.ENA' with given mode 'rb' on any of paths in searchPaths.
+UOReport::warning: FileManager::open ('fuzzy find'): looking for 'language\gt_1010.ENA' on searchPaths, but ignoring case.
+UOReport::warning: FileManager::open: failed to open 'language\gt_1010.ENA' with given mode 'rb' on any of paths in searchPaths, even by ignoring case.
+UOReport::warning: FileManager::load: failed to load 'language\gt_1010.ENA'.
+FileManager::open: begin. filename='gt_1010.ENA'
+FileManager::open: finished searching list of opened files.
+FileManager::open: looking for file with name 'as-is' on all search paths.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\gt_1010.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\gt_1010.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\tutorial\gt_1010.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\tutorial\gt_1010.ENA' with mode 'rb'.
+UOReport::warning: FileManager::open: failed to open 'gt_1010.ENA' with given mode 'rb' on any of paths in searchPaths.
+UOReport::warning: FileManager::open ('fuzzy find'): looking for 'gt_1010.ENA' on searchPaths, but ignoring case.
+UOReport::warning: FileManager::open: failed to open 'gt_1010.ENA' with given mode 'rb' on any of paths in searchPaths, even by ignoring case.
+UOReport::warning: FileManager::load: failed to load 'gt_1010.ENA'.
+FileManager::open: begin. filename='language\gt_1010.ENA'
+FileManager::open: finished searching list of opened files.
+FileManager::open: looking for file with name 'as-is' on all search paths.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\language\gt_1010.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\language\gt_1010.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\tutorial\language\gt_1010.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\tutorial\language\gt_1010.ENA' with mode 'rb'.
+UOReport::warning: FileManager::open: failed to open 'language\gt_1010.ENA' with given mode 'rb' on any of paths in searchPaths.
+UOReport::warning: FileManager::open ('fuzzy find'): looking for 'language\gt_1010.ENA' on searchPaths, but ignoring case.
+UOReport::warning: FileManager::open: failed to open 'language\gt_1010.ENA' with given mode 'rb' on any of paths in searchPaths, even by ignoring case.
+UOReport::warning: FileManager::load: failed to load 'language\gt_1010.ENA'.
+FileManager::open: begin. filename='gt_1010.enu'
+FileManager::open: finished searching list of opened files.
+FileManager::open: looking for file with name 'as-is' on all search paths.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\gt_1010.enu' with mode 'rb'.
+FileManager::addOpenFile: file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\gt_1010.enu' added to list. size is 372.
+FileManager::open: opened 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\gt_1010.enu' with mode 'rb'.
+FileManager::open: seeking to start of file.
+FileManager::load: file 'gt_1010.enu'. allocating 372 bytes of memory
+FileManager::close: closing file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\gt_1010.enu'.
+FileManager::open: begin. filename='gt_2000.ENA'
+FileManager::open: finished searching list of opened files.
+FileManager::open: looking for file with name 'as-is' on all search paths.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\gt_2000.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\gt_2000.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\tutorial\gt_2000.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\tutorial\gt_2000.ENA' with mode 'rb'.
+UOReport::warning: FileManager::open: failed to open 'gt_2000.ENA' with given mode 'rb' on any of paths in searchPaths.
+UOReport::warning: FileManager::open ('fuzzy find'): looking for 'gt_2000.ENA' on searchPaths, but ignoring case.
+UOReport::warning: FileManager::open: failed to open 'gt_2000.ENA' with given mode 'rb' on any of paths in searchPaths, even by ignoring case.
+UOReport::warning: FileManager::load: failed to load 'gt_2000.ENA'.
+FileManager::open: begin. filename='language\gt_2000.ENA'
+FileManager::open: finished searching list of opened files.
+FileManager::open: looking for file with name 'as-is' on all search paths.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\language\gt_2000.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\language\gt_2000.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\tutorial\language\gt_2000.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\tutorial\language\gt_2000.ENA' with mode 'rb'.
+UOReport::warning: FileManager::open: failed to open 'language\gt_2000.ENA' with given mode 'rb' on any of paths in searchPaths.
+UOReport::warning: FileManager::open ('fuzzy find'): looking for 'language\gt_2000.ENA' on searchPaths, but ignoring case.
+UOReport::warning: FileManager::open: failed to open 'language\gt_2000.ENA' with given mode 'rb' on any of paths in searchPaths, even by ignoring case.
+UOReport::warning: FileManager::load: failed to load 'language\gt_2000.ENA'.
+FileManager::open: begin. filename='gt_2000.ENA'
+FileManager::open: finished searching list of opened files.
+FileManager::open: looking for file with name 'as-is' on all search paths.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\gt_2000.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\gt_2000.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\tutorial\gt_2000.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\tutorial\gt_2000.ENA' with mode 'rb'.
+UOReport::warning: FileManager::open: failed to open 'gt_2000.ENA' with given mode 'rb' on any of paths in searchPaths.
+UOReport::warning: FileManager::open ('fuzzy find'): looking for 'gt_2000.ENA' on searchPaths, but ignoring case.
+UOReport::warning: FileManager::open: failed to open 'gt_2000.ENA' with given mode 'rb' on any of paths in searchPaths, even by ignoring case.
+UOReport::warning: FileManager::load: failed to load 'gt_2000.ENA'.
+FileManager::open: begin. filename='language\gt_2000.ENA'
+FileManager::open: finished searching list of opened files.
+FileManager::open: looking for file with name 'as-is' on all search paths.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\language\gt_2000.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\language\gt_2000.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\tutorial\language\gt_2000.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\tutorial\language\gt_2000.ENA' with mode 'rb'.
+UOReport::warning: FileManager::open: failed to open 'language\gt_2000.ENA' with given mode 'rb' on any of paths in searchPaths.
+UOReport::warning: FileManager::open ('fuzzy find'): looking for 'language\gt_2000.ENA' on searchPaths, but ignoring case.
+UOReport::warning: FileManager::open: failed to open 'language\gt_2000.ENA' with given mode 'rb' on any of paths in searchPaths, even by ignoring case.
+UOReport::warning: FileManager::load: failed to load 'language\gt_2000.ENA'.
+FileManager::open: begin. filename='gt_2000.enu'
+FileManager::open: finished searching list of opened files.
+FileManager::open: looking for file with name 'as-is' on all search paths.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\gt_2000.enu' with mode 'rb'.
+FileManager::addOpenFile: file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\gt_2000.enu' added to list. size is 302.
+FileManager::open: opened 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\gt_2000.enu' with mode 'rb'.
+FileManager::open: seeking to start of file.
+FileManager::load: file 'gt_2000.enu'. allocating 302 bytes of memory
+FileManager::close: closing file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\gt_2000.enu'.
+FileManager::open: begin. filename='gt_2310.ENA'
+FileManager::open: finished searching list of opened files.
+FileManager::open: looking for file with name 'as-is' on all search paths.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\gt_2310.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\gt_2310.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\tutorial\gt_2310.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\tutorial\gt_2310.ENA' with mode 'rb'.
+UOReport::warning: FileManager::open: failed to open 'gt_2310.ENA' with given mode 'rb' on any of paths in searchPaths.
+UOReport::warning: FileManager::open ('fuzzy find'): looking for 'gt_2310.ENA' on searchPaths, but ignoring case.
+UOReport::warning: FileManager::open: failed to open 'gt_2310.ENA' with given mode 'rb' on any of paths in searchPaths, even by ignoring case.
+UOReport::warning: FileManager::load: failed to load 'gt_2310.ENA'.
+FileManager::open: begin. filename='language\gt_2310.ENA'
+FileManager::open: finished searching list of opened files.
+FileManager::open: looking for file with name 'as-is' on all search paths.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\language\gt_2310.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\language\gt_2310.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\tutorial\language\gt_2310.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\tutorial\language\gt_2310.ENA' with mode 'rb'.
+UOReport::warning: FileManager::open: failed to open 'language\gt_2310.ENA' with given mode 'rb' on any of paths in searchPaths.
+UOReport::warning: FileManager::open ('fuzzy find'): looking for 'language\gt_2310.ENA' on searchPaths, but ignoring case.
+UOReport::warning: FileManager::open: failed to open 'language\gt_2310.ENA' with given mode 'rb' on any of paths in searchPaths, even by ignoring case.
+UOReport::warning: FileManager::load: failed to load 'language\gt_2310.ENA'.
+FileManager::open: begin. filename='gt_2310.ENA'
+FileManager::open: finished searching list of opened files.
+FileManager::open: looking for file with name 'as-is' on all search paths.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\gt_2310.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\gt_2310.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\tutorial\gt_2310.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\tutorial\gt_2310.ENA' with mode 'rb'.
+UOReport::warning: FileManager::open: failed to open 'gt_2310.ENA' with given mode 'rb' on any of paths in searchPaths.
+UOReport::warning: FileManager::open ('fuzzy find'): looking for 'gt_2310.ENA' on searchPaths, but ignoring case.
+UOReport::warning: FileManager::open: failed to open 'gt_2310.ENA' with given mode 'rb' on any of paths in searchPaths, even by ignoring case.
+UOReport::warning: FileManager::load: failed to load 'gt_2310.ENA'.
+FileManager::open: begin. filename='language\gt_2310.ENA'
+FileManager::open: finished searching list of opened files.
+FileManager::open: looking for file with name 'as-is' on all search paths.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\language\gt_2310.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\language\gt_2310.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\tutorial\language\gt_2310.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\tutorial\language\gt_2310.ENA' with mode 'rb'.
+UOReport::warning: FileManager::open: failed to open 'language\gt_2310.ENA' with given mode 'rb' on any of paths in searchPaths.
+UOReport::warning: FileManager::open ('fuzzy find'): looking for 'language\gt_2310.ENA' on searchPaths, but ignoring case.
+UOReport::warning: FileManager::open: failed to open 'language\gt_2310.ENA' with given mode 'rb' on any of paths in searchPaths, even by ignoring case.
+UOReport::warning: FileManager::load: failed to load 'language\gt_2310.ENA'.
+FileManager::open: begin. filename='gt_2310.enu'
+FileManager::open: finished searching list of opened files.
+FileManager::open: looking for file with name 'as-is' on all search paths.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\gt_2310.enu' with mode 'rb'.
+FileManager::addOpenFile: file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\gt_2310.enu' added to list. size is 84.
+FileManager::open: opened 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\gt_2310.enu' with mode 'rb'.
+FileManager::open: seeking to start of file.
+FileManager::load: file 'gt_2310.enu'. allocating 84 bytes of memory
+FileManager::close: closing file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\gt_2310.enu'.
+FileManager::open: begin. filename='gt_2400.ENA'
+FileManager::open: finished searching list of opened files.
+FileManager::open: looking for file with name 'as-is' on all search paths.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\gt_2400.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\gt_2400.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\tutorial\gt_2400.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\tutorial\gt_2400.ENA' with mode 'rb'.
+UOReport::warning: FileManager::open: failed to open 'gt_2400.ENA' with given mode 'rb' on any of paths in searchPaths.
+UOReport::warning: FileManager::open ('fuzzy find'): looking for 'gt_2400.ENA' on searchPaths, but ignoring case.
+UOReport::warning: FileManager::open: failed to open 'gt_2400.ENA' with given mode 'rb' on any of paths in searchPaths, even by ignoring case.
+UOReport::warning: FileManager::load: failed to load 'gt_2400.ENA'.
+FileManager::open: begin. filename='language\gt_2400.ENA'
+FileManager::open: finished searching list of opened files.
+FileManager::open: looking for file with name 'as-is' on all search paths.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\language\gt_2400.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\language\gt_2400.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\tutorial\language\gt_2400.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\tutorial\language\gt_2400.ENA' with mode 'rb'.
+UOReport::warning: FileManager::open: failed to open 'language\gt_2400.ENA' with given mode 'rb' on any of paths in searchPaths.
+UOReport::warning: FileManager::open ('fuzzy find'): looking for 'language\gt_2400.ENA' on searchPaths, but ignoring case.
+UOReport::warning: FileManager::open: failed to open 'language\gt_2400.ENA' with given mode 'rb' on any of paths in searchPaths, even by ignoring case.
+UOReport::warning: FileManager::load: failed to load 'language\gt_2400.ENA'.
+FileManager::open: begin. filename='gt_2400.ENA'
+FileManager::open: finished searching list of opened files.
+FileManager::open: looking for file with name 'as-is' on all search paths.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\gt_2400.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\gt_2400.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\tutorial\gt_2400.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\tutorial\gt_2400.ENA' with mode 'rb'.
+UOReport::warning: FileManager::open: failed to open 'gt_2400.ENA' with given mode 'rb' on any of paths in searchPaths.
+UOReport::warning: FileManager::open ('fuzzy find'): looking for 'gt_2400.ENA' on searchPaths, but ignoring case.
+UOReport::warning: FileManager::open: failed to open 'gt_2400.ENA' with given mode 'rb' on any of paths in searchPaths, even by ignoring case.
+UOReport::warning: FileManager::load: failed to load 'gt_2400.ENA'.
+FileManager::open: begin. filename='language\gt_2400.ENA'
+FileManager::open: finished searching list of opened files.
+FileManager::open: looking for file with name 'as-is' on all search paths.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\language\gt_2400.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\language\gt_2400.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\tutorial\language\gt_2400.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\tutorial\language\gt_2400.ENA' with mode 'rb'.
+UOReport::warning: FileManager::open: failed to open 'language\gt_2400.ENA' with given mode 'rb' on any of paths in searchPaths.
+UOReport::warning: FileManager::open ('fuzzy find'): looking for 'language\gt_2400.ENA' on searchPaths, but ignoring case.
+UOReport::warning: FileManager::open: failed to open 'language\gt_2400.ENA' with given mode 'rb' on any of paths in searchPaths, even by ignoring case.
+UOReport::warning: FileManager::load: failed to load 'language\gt_2400.ENA'.
+FileManager::open: begin. filename='gt_2400.enu'
+FileManager::open: finished searching list of opened files.
+FileManager::open: looking for file with name 'as-is' on all search paths.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\gt_2400.enu' with mode 'rb'.
+FileManager::addOpenFile: file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\gt_2400.enu' added to list. size is 198.
+FileManager::open: opened 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\gt_2400.enu' with mode 'rb'.
+FileManager::open: seeking to start of file.
+FileManager::load: file 'gt_2400.enu'. allocating 198 bytes of memory
+FileManager::close: closing file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\gt_2400.enu'.
+FileManager::open: begin. filename='gt_5000.ENA'
+FileManager::open: finished searching list of opened files.
+FileManager::open: looking for file with name 'as-is' on all search paths.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\gt_5000.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\gt_5000.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\tutorial\gt_5000.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\tutorial\gt_5000.ENA' with mode 'rb'.
+UOReport::warning: FileManager::open: failed to open 'gt_5000.ENA' with given mode 'rb' on any of paths in searchPaths.
+UOReport::warning: FileManager::open ('fuzzy find'): looking for 'gt_5000.ENA' on searchPaths, but ignoring case.
+UOReport::warning: FileManager::open: failed to open 'gt_5000.ENA' with given mode 'rb' on any of paths in searchPaths, even by ignoring case.
+UOReport::warning: FileManager::load: failed to load 'gt_5000.ENA'.
+FileManager::open: begin. filename='language\gt_5000.ENA'
+FileManager::open: finished searching list of opened files.
+FileManager::open: looking for file with name 'as-is' on all search paths.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\language\gt_5000.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\language\gt_5000.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\tutorial\language\gt_5000.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\tutorial\language\gt_5000.ENA' with mode 'rb'.
+UOReport::warning: FileManager::open: failed to open 'language\gt_5000.ENA' with given mode 'rb' on any of paths in searchPaths.
+UOReport::warning: FileManager::open ('fuzzy find'): looking for 'language\gt_5000.ENA' on searchPaths, but ignoring case.
+UOReport::warning: FileManager::open: failed to open 'language\gt_5000.ENA' with given mode 'rb' on any of paths in searchPaths, even by ignoring case.
+UOReport::warning: FileManager::load: failed to load 'language\gt_5000.ENA'.
+FileManager::open: begin. filename='gt_5000.ENA'
+FileManager::open: finished searching list of opened files.
+FileManager::open: looking for file with name 'as-is' on all search paths.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\gt_5000.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\gt_5000.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\tutorial\gt_5000.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\tutorial\gt_5000.ENA' with mode 'rb'.
+UOReport::warning: FileManager::open: failed to open 'gt_5000.ENA' with given mode 'rb' on any of paths in searchPaths.
+UOReport::warning: FileManager::open ('fuzzy find'): looking for 'gt_5000.ENA' on searchPaths, but ignoring case.
+UOReport::warning: FileManager::open: failed to open 'gt_5000.ENA' with given mode 'rb' on any of paths in searchPaths, even by ignoring case.
+UOReport::warning: FileManager::load: failed to load 'gt_5000.ENA'.
+FileManager::open: begin. filename='language\gt_5000.ENA'
+FileManager::open: finished searching list of opened files.
+FileManager::open: looking for file with name 'as-is' on all search paths.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\language\gt_5000.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\language\gt_5000.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\tutorial\language\gt_5000.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\tutorial\language\gt_5000.ENA' with mode 'rb'.
+UOReport::warning: FileManager::open: failed to open 'language\gt_5000.ENA' with given mode 'rb' on any of paths in searchPaths.
+UOReport::warning: FileManager::open ('fuzzy find'): looking for 'language\gt_5000.ENA' on searchPaths, but ignoring case.
+UOReport::warning: FileManager::open: failed to open 'language\gt_5000.ENA' with given mode 'rb' on any of paths in searchPaths, even by ignoring case.
+UOReport::warning: FileManager::load: failed to load 'language\gt_5000.ENA'.
+FileManager::open: begin. filename='gt_5000.enu'
+FileManager::open: finished searching list of opened files.
+FileManager::open: looking for file with name 'as-is' on all search paths.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\gt_5000.enu' with mode 'rb'.
+FileManager::addOpenFile: file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\gt_5000.enu' added to list. size is 276.
+FileManager::open: opened 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\gt_5000.enu' with mode 'rb'.
+FileManager::open: seeking to start of file.
+FileManager::load: file 'gt_5000.enu'. allocating 276 bytes of memory
+FileManager::close: closing file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\gt_5000.enu'.
+FileManager::open: begin. filename='gt_5400.ENA'
+FileManager::open: finished searching list of opened files.
+FileManager::open: looking for file with name 'as-is' on all search paths.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\gt_5400.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\gt_5400.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\tutorial\gt_5400.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\tutorial\gt_5400.ENA' with mode 'rb'.
+UOReport::warning: FileManager::open: failed to open 'gt_5400.ENA' with given mode 'rb' on any of paths in searchPaths.
+UOReport::warning: FileManager::open ('fuzzy find'): looking for 'gt_5400.ENA' on searchPaths, but ignoring case.
+UOReport::warning: FileManager::open: failed to open 'gt_5400.ENA' with given mode 'rb' on any of paths in searchPaths, even by ignoring case.
+UOReport::warning: FileManager::load: failed to load 'gt_5400.ENA'.
+FileManager::open: begin. filename='language\gt_5400.ENA'
+FileManager::open: finished searching list of opened files.
+FileManager::open: looking for file with name 'as-is' on all search paths.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\language\gt_5400.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\language\gt_5400.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\tutorial\language\gt_5400.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\tutorial\language\gt_5400.ENA' with mode 'rb'.
+UOReport::warning: FileManager::open: failed to open 'language\gt_5400.ENA' with given mode 'rb' on any of paths in searchPaths.
+UOReport::warning: FileManager::open ('fuzzy find'): looking for 'language\gt_5400.ENA' on searchPaths, but ignoring case.
+UOReport::warning: FileManager::open: failed to open 'language\gt_5400.ENA' with given mode 'rb' on any of paths in searchPaths, even by ignoring case.
+UOReport::warning: FileManager::load: failed to load 'language\gt_5400.ENA'.
+FileManager::open: begin. filename='gt_5400.ENA'
+FileManager::open: finished searching list of opened files.
+FileManager::open: looking for file with name 'as-is' on all search paths.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\gt_5400.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\gt_5400.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\tutorial\gt_5400.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\tutorial\gt_5400.ENA' with mode 'rb'.
+UOReport::warning: FileManager::open: failed to open 'gt_5400.ENA' with given mode 'rb' on any of paths in searchPaths.
+UOReport::warning: FileManager::open ('fuzzy find'): looking for 'gt_5400.ENA' on searchPaths, but ignoring case.
+UOReport::warning: FileManager::open: failed to open 'gt_5400.ENA' with given mode 'rb' on any of paths in searchPaths, even by ignoring case.
+UOReport::warning: FileManager::load: failed to load 'gt_5400.ENA'.
+FileManager::open: begin. filename='language\gt_5400.ENA'
+FileManager::open: finished searching list of opened files.
+FileManager::open: looking for file with name 'as-is' on all search paths.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\language\gt_5400.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\language\gt_5400.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\tutorial\language\gt_5400.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\tutorial\language\gt_5400.ENA' with mode 'rb'.
+UOReport::warning: FileManager::open: failed to open 'language\gt_5400.ENA' with given mode 'rb' on any of paths in searchPaths.
+UOReport::warning: FileManager::open ('fuzzy find'): looking for 'language\gt_5400.ENA' on searchPaths, but ignoring case.
+UOReport::warning: FileManager::open: failed to open 'language\gt_5400.ENA' with given mode 'rb' on any of paths in searchPaths, even by ignoring case.
+UOReport::warning: FileManager::load: failed to load 'language\gt_5400.ENA'.
+FileManager::open: begin. filename='gt_5400.enu'
+FileManager::open: finished searching list of opened files.
+FileManager::open: looking for file with name 'as-is' on all search paths.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\gt_5400.enu' with mode 'rb'.
+FileManager::addOpenFile: file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\gt_5400.enu' added to list. size is 90.
+FileManager::open: opened 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\gt_5400.enu' with mode 'rb'.
+FileManager::open: seeking to start of file.
+FileManager::load: file 'gt_5400.enu'. allocating 90 bytes of memory
+FileManager::close: closing file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\gt_5400.enu'.
+FileManager::open: begin. filename='skilname.ENA'
+FileManager::open: finished searching list of opened files.
+FileManager::open: looking for file with name 'as-is' on all search paths.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\skilname.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\skilname.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\tutorial\skilname.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\tutorial\skilname.ENA' with mode 'rb'.
+UOReport::warning: FileManager::open: failed to open 'skilname.ENA' with given mode 'rb' on any of paths in searchPaths.
+UOReport::warning: FileManager::open ('fuzzy find'): looking for 'skilname.ENA' on searchPaths, but ignoring case.
+UOReport::warning: FileManager::open: failed to open 'skilname.ENA' with given mode 'rb' on any of paths in searchPaths, even by ignoring case.
+UOReport::warning: FileManager::load: failed to load 'skilname.ENA'.
+FileManager::open: begin. filename='language\skilname.ENA'
+FileManager::open: finished searching list of opened files.
+FileManager::open: looking for file with name 'as-is' on all search paths.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\language\skilname.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\language\skilname.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\tutorial\language\skilname.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\tutorial\language\skilname.ENA' with mode 'rb'.
+UOReport::warning: FileManager::open: failed to open 'language\skilname.ENA' with given mode 'rb' on any of paths in searchPaths.
+UOReport::warning: FileManager::open ('fuzzy find'): looking for 'language\skilname.ENA' on searchPaths, but ignoring case.
+UOReport::warning: FileManager::open: failed to open 'language\skilname.ENA' with given mode 'rb' on any of paths in searchPaths, even by ignoring case.
+UOReport::warning: FileManager::load: failed to load 'language\skilname.ENA'.
+FileManager::open: begin. filename='skilname.ENA'
+FileManager::open: finished searching list of opened files.
+FileManager::open: looking for file with name 'as-is' on all search paths.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\skilname.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\skilname.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\tutorial\skilname.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\tutorial\skilname.ENA' with mode 'rb'.
+UOReport::warning: FileManager::open: failed to open 'skilname.ENA' with given mode 'rb' on any of paths in searchPaths.
+UOReport::warning: FileManager::open ('fuzzy find'): looking for 'skilname.ENA' on searchPaths, but ignoring case.
+UOReport::warning: FileManager::open: failed to open 'skilname.ENA' with given mode 'rb' on any of paths in searchPaths, even by ignoring case.
+UOReport::warning: FileManager::load: failed to load 'skilname.ENA'.
+FileManager::open: begin. filename='language\skilname.ENA'
+FileManager::open: finished searching list of opened files.
+FileManager::open: looking for file with name 'as-is' on all search paths.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\language\skilname.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\language\skilname.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\tutorial\language\skilname.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\tutorial\language\skilname.ENA' with mode 'rb'.
+UOReport::warning: FileManager::open: failed to open 'language\skilname.ENA' with given mode 'rb' on any of paths in searchPaths.
+UOReport::warning: FileManager::open ('fuzzy find'): looking for 'language\skilname.ENA' on searchPaths, but ignoring case.
+UOReport::warning: FileManager::open: failed to open 'language\skilname.ENA' with given mode 'rb' on any of paths in searchPaths, even by ignoring case.
+UOReport::warning: FileManager::load: failed to load 'language\skilname.ENA'.
+FileManager::open: begin. filename='skilname.enu'
+FileManager::open: finished searching list of opened files.
+FileManager::open: looking for file with name 'as-is' on all search paths.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\skilname.enu' with mode 'rb'.
+FileManager::addOpenFile: file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\skilname.enu' added to list. size is 654.
+FileManager::open: opened 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\skilname.enu' with mode 'rb'.
+FileManager::open: seeking to start of file.
+FileManager::load: file 'skilname.enu'. allocating 654 bytes of memory
+FileManager::close: closing file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\skilname.enu'.
+FileManager::open: begin. filename='chat.ENA'
+FileManager::open: finished searching list of opened files.
+FileManager::open: looking for file with name 'as-is' on all search paths.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\chat.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\chat.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\tutorial\chat.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\tutorial\chat.ENA' with mode 'rb'.
+UOReport::warning: FileManager::open: failed to open 'chat.ENA' with given mode 'rb' on any of paths in searchPaths.
+UOReport::warning: FileManager::open ('fuzzy find'): looking for 'chat.ENA' on searchPaths, but ignoring case.
+UOReport::warning: FileManager::open: failed to open 'chat.ENA' with given mode 'rb' on any of paths in searchPaths, even by ignoring case.
+UOReport::warning: FileManager::load: failed to load 'chat.ENA'.
+FileManager::open: begin. filename='language\chat.ENA'
+FileManager::open: finished searching list of opened files.
+FileManager::open: looking for file with name 'as-is' on all search paths.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\language\chat.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\language\chat.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\tutorial\language\chat.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\tutorial\language\chat.ENA' with mode 'rb'.
+UOReport::warning: FileManager::open: failed to open 'language\chat.ENA' with given mode 'rb' on any of paths in searchPaths.
+UOReport::warning: FileManager::open ('fuzzy find'): looking for 'language\chat.ENA' on searchPaths, but ignoring case.
+UOReport::warning: FileManager::open: failed to open 'language\chat.ENA' with given mode 'rb' on any of paths in searchPaths, even by ignoring case.
+UOReport::warning: FileManager::load: failed to load 'language\chat.ENA'.
+FileManager::open: begin. filename='chat.ENA'
+FileManager::open: finished searching list of opened files.
+FileManager::open: looking for file with name 'as-is' on all search paths.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\chat.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\chat.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\tutorial\chat.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\tutorial\chat.ENA' with mode 'rb'.
+UOReport::warning: FileManager::open: failed to open 'chat.ENA' with given mode 'rb' on any of paths in searchPaths.
+UOReport::warning: FileManager::open ('fuzzy find'): looking for 'chat.ENA' on searchPaths, but ignoring case.
+UOReport::warning: FileManager::open: failed to open 'chat.ENA' with given mode 'rb' on any of paths in searchPaths, even by ignoring case.
+UOReport::warning: FileManager::load: failed to load 'chat.ENA'.
+FileManager::open: begin. filename='language\chat.ENA'
+FileManager::open: finished searching list of opened files.
+FileManager::open: looking for file with name 'as-is' on all search paths.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\language\chat.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\language\chat.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\tutorial\language\chat.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\tutorial\language\chat.ENA' with mode 'rb'.
+UOReport::warning: FileManager::open: failed to open 'language\chat.ENA' with given mode 'rb' on any of paths in searchPaths.
+UOReport::warning: FileManager::open ('fuzzy find'): looking for 'language\chat.ENA' on searchPaths, but ignoring case.
+UOReport::warning: FileManager::open: failed to open 'language\chat.ENA' with given mode 'rb' on any of paths in searchPaths, even by ignoring case.
+UOReport::warning: FileManager::load: failed to load 'language\chat.ENA'.
+FileManager::open: begin. filename='chat.enu'
+FileManager::open: finished searching list of opened files.
+FileManager::open: looking for file with name 'as-is' on all search paths.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\chat.enu' with mode 'rb'.
+FileManager::addOpenFile: file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\chat.enu' added to list. size is 4240.
+FileManager::open: opened 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\chat.enu' with mode 'rb'.
+FileManager::open: seeking to start of file.
+FileManager::load: file 'chat.enu'. allocating 4240 bytes of memory
+FileManager::close: closing file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\chat.enu'.
+FileManager::open: begin. filename='options.ENA'
+FileManager::open: finished searching list of opened files.
+FileManager::open: looking for file with name 'as-is' on all search paths.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\options.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\options.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\tutorial\options.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\tutorial\options.ENA' with mode 'rb'.
+UOReport::warning: FileManager::open: failed to open 'options.ENA' with given mode 'rb' on any of paths in searchPaths.
+UOReport::warning: FileManager::open ('fuzzy find'): looking for 'options.ENA' on searchPaths, but ignoring case.
+UOReport::warning: FileManager::open: failed to open 'options.ENA' with given mode 'rb' on any of paths in searchPaths, even by ignoring case.
+UOReport::warning: FileManager::load: failed to load 'options.ENA'.
+FileManager::open: begin. filename='language\options.ENA'
+FileManager::open: finished searching list of opened files.
+FileManager::open: looking for file with name 'as-is' on all search paths.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\language\options.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\language\options.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\tutorial\language\options.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\tutorial\language\options.ENA' with mode 'rb'.
+UOReport::warning: FileManager::open: failed to open 'language\options.ENA' with given mode 'rb' on any of paths in searchPaths.
+UOReport::warning: FileManager::open ('fuzzy find'): looking for 'language\options.ENA' on searchPaths, but ignoring case.
+UOReport::warning: FileManager::open: failed to open 'language\options.ENA' with given mode 'rb' on any of paths in searchPaths, even by ignoring case.
+UOReport::warning: FileManager::load: failed to load 'language\options.ENA'.
+FileManager::open: begin. filename='options.ENA'
+FileManager::open: finished searching list of opened files.
+FileManager::open: looking for file with name 'as-is' on all search paths.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\options.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\options.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\tutorial\options.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\tutorial\options.ENA' with mode 'rb'.
+UOReport::warning: FileManager::open: failed to open 'options.ENA' with given mode 'rb' on any of paths in searchPaths.
+UOReport::warning: FileManager::open ('fuzzy find'): looking for 'options.ENA' on searchPaths, but ignoring case.
+UOReport::warning: FileManager::open: failed to open 'options.ENA' with given mode 'rb' on any of paths in searchPaths, even by ignoring case.
+UOReport::warning: FileManager::load: failed to load 'options.ENA'.
+FileManager::open: begin. filename='language\options.ENA'
+FileManager::open: finished searching list of opened files.
+FileManager::open: looking for file with name 'as-is' on all search paths.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\language\options.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\language\options.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\tutorial\language\options.ENA' with mode 'rb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\tutorial\language\options.ENA' with mode 'rb'.
+UOReport::warning: FileManager::open: failed to open 'language\options.ENA' with given mode 'rb' on any of paths in searchPaths.
+UOReport::warning: FileManager::open ('fuzzy find'): looking for 'language\options.ENA' on searchPaths, but ignoring case.
+UOReport::warning: FileManager::open: failed to open 'language\options.ENA' with given mode 'rb' on any of paths in searchPaths, even by ignoring case.
+UOReport::warning: FileManager::load: failed to load 'language\options.ENA'.
+FileManager::open: begin. filename='options.enu'
+FileManager::open: finished searching list of opened files.
+FileManager::open: looking for file with name 'as-is' on all search paths.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\options.enu' with mode 'rb'.
+FileManager::addOpenFile: file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\options.enu' added to list. size is 5322.
+FileManager::open: opened 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\options.enu' with mode 'rb'.
+FileManager::open: seeking to start of file.
+FileManager::load: file 'options.enu'. allocating 5322 bytes of memory
+FileManager::close: closing file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\options.enu'.
+LanguageManager::startup: user language set to 'ENA'.
+UOReport::message: CSocket::CSocket() begin.
+UOReport::message: CGMSSock::CGMSSock(): begin.
+UOReport::message: CMapGump::CMapGump(): begin.
+UOReport::message: GameAreaEdgeGump::GameAreaEdgeGump(int which): begin.
+UOReport::message: GameAreaEdgeGump::GameAreaEdgeGump(int which): begin.
+UOReport::message: GameAreaEdgeGump::GameAreaEdgeGump(int which): begin.
+UOReport::message: GameAreaEdgeGump::GameAreaEdgeGump(int which): begin.
+FileManager::open: begin. filename='uo.cfg'
+FileManager::open: file 'uo.cfg' now open 4 times.
+FileManager::open: finished searching list of opened files.
+FileManager::open: seeking to start of file.
+FileManager::close: closing file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\uo.cfg'.
+FileManager::open: begin. filename='uo.cfg'
+FileManager::open: file 'uo.cfg' now open 5 times.
+FileManager::open: finished searching list of opened files.
+FileManager::open: seeking to start of file.
+FileManager::open: begin. filename='uo.cfg'
+UOReport::warning: FileManager::open: file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\uo.cfg' currently open. closing.
+FileManager::close: closing file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\uo.cfg'.
+FileManager::open: file 'uo.cfg' now open 6 times.
+FileManager::open: finished searching list of opened files.
+FileManager::open: seeking to start of file.
+FileManager::close: closing file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\uo.cfg'.
+FileManager::open: begin. filename='uo.cfg'
+FileManager::open: file 'uo.cfg' now open 7 times.
+FileManager::open: finished searching list of opened files.
+FileManager::open: seeking to start of file.
+FileManager::open: begin. filename='uo.cfg'
+UOReport::warning: FileManager::open: file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\uo.cfg' currently open. closing.
+FileManager::close: closing file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\uo.cfg'.
+FileManager::open: file 'uo.cfg' now open 8 times.
+FileManager::open: finished searching list of opened files.
+FileManager::open: seeking to start of file.
+FileManager::close: closing file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\uo.cfg'.
+FileManager::open: begin. filename='uo.cfg'
+FileManager::open: file 'uo.cfg' now open 9 times.
+FileManager::open: finished searching list of opened files.
+FileManager::open: seeking to start of file.
+UOReport::message: CInputWindow::CInputWindow(): begin.
+UOReport::message: CSocket::CSocket() begin.
+UOReport::message: GroupedPackets::GroupedPackets(): begin.
+UOReport::message: CClientSock::CClientSock(): begin.
+WinMain: just before main program loop.
+UOReport::warning: PerformanceManager::getTimer: could not find timer for 'SoundManager::Update()'
+UOReport::warning: PerformanceManager::getTimer: could not find timer for 'SoundManager::Update()'
+UOReport::warning: PerformanceManager::getTimer: could not find timer for 'LanguageTranslationServer::update()'
+UOReport::warning: PerformanceManager::getTimer: could not find timer for 'LanguageTranslationServer::update()'
+UOReport::warning: PerformanceManager::getTimer: could not find timer for 'GodModeManager::update()'
+UOReport::warning: PerformanceManager::getTimer: could not find timer for 'GodModeManager::update()'
+UOReport::warning: PerformanceManager::getTimer: could not find timer for 'CApp::TimerUpdate(FALSE)'
+UOReport::warning: PerformanceManager::getTimer: could not find timer for 'CApp::TimerUpdate(FALSE)'
+UOReport::warning: PerformanceManager::getTimer: could not find timer for 'MouseManager::Update()'
+UOReport::warning: PerformanceManager::getTimer: could not find timer for 'MouseManager::Update()'
+UOReport::warning: PerformanceManager::getTimer: could not find timer for 'CGumpManager::Update()'
+UOReport::warning: PerformanceManager::getTimer: could not find timer for 'CGumpManager::Update()'
+UOReport::warning: PerformanceManager::getTimer: could not find timer for 'CObjectManager::AgeBarks()'
+UOReport::warning: PerformanceManager::getTimer: could not find timer for 'CObjectManager::AgeBarks()'
+UOReport::warning: PerformanceManager::getTimer: could not find timer for 'SpamTick()'
+UOReport::warning: PerformanceManager::getTimer: could not find timer for 'SpamTick()'
+UOReport::warning: PerformanceManager::getTimer: could not find timer for 'PathFindUpdate()'
+UOReport::warning: PerformanceManager::getTimer: could not find timer for 'PathFindUpdate()'
+UOReport::warning: PerformanceManager::getTimer: could not find timer for 'MoveManager::Update()'
+UOReport::warning: PerformanceManager::getTimer: could not find timer for 'MoveManager::Update()'
+UOReport::warning: PerformanceManager::getTimer: could not find timer for 'CObjectManager::UpdateMovement()'
+UOReport::warning: PerformanceManager::getTimer: could not find timer for 'CObjectManager::UpdateMovement()'
+UOReport::warning: PerformanceManager::getTimer: could not find timer for 'EditManager::Update()'
+UOReport::warning: PerformanceManager::getTimer: could not find timer for 'EditManager::Update()'
+UOReport::warning: PerformanceManager::getTimer: could not find timer for 'WeatherManager::UpdateWeather()'
+UOReport::warning: PerformanceManager::getTimer: could not find timer for 'WeatherManager::UpdateWeather()'
+UOReport::warning: PerformanceManager::getTimer: could not find timer for 'MacroManager::HeartBeat()'
+UOReport::warning: PerformanceManager::getTimer: could not find timer for 'MacroManager::HeartBeat()'
+UOReport::warning: PerformanceManager::getTimer: could not find timer for 'GraphicManager::Draw_Map_Isometric()'
+UOReport::warning: PerformanceManager::getTimer: could not find timer for 'GraphicManager::Draw_Map_Isometric()'
+UOReport::warning: PerformanceManager::getTimer: could not find timer for 'UpdateDirtyRects()'
+UOReport::warning: PerformanceManager::getTimer: could not find timer for 'UpdateDirtyRects()'
+UOReport::warning: PerformanceManager::getTimer: could not find timer for 'CGumpManager::DrawAllGumps'
+UOReport::warning: PerformanceManager::getTimer: could not find timer for 'CGumpManager::DrawAllGumps'
+UOReport::warning: PerformanceManager::getTimer: could not find timer for 'DoPing()'
+UOReport::warning: PerformanceManager::getTimer: could not find timer for 'DoPing()'
+thelightthingie::shutdown:UOReport::message: CApp::shutdown: begin.
+CDHDCache::shutdown: shutting down...
+CDHDCache::shutdown: removing cache file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\cache0.uo'
+CDHDCache::shutdown: shut down
+UOReport::message: CGumpManager::shutdown(): begin.
+CMapGump::~CMapGump()
+FontManager::shutdown: stopping...
+CFont::~CFont()
+CFont::~CFont()
+CFont::~CFont()
+CFont::~CFont()
+CFont::~CFont()
+CFont::~CFont()
+CFont::~CFont()
+CFont::~CFont()
+CFont::~CFont()
+CFont::~CFont()
+FontManager::shutdown: stopped.
+EditManager::shutdown: stopping...
+EditManager::shutdown: stopped.
+FileManager::open: begin. filename='C:\Program Files\EA Games\Ultima Online Mondain's Legacy\\animinfo.mul'
+FileManager::open: finished searching list of opened files.
+FileManager::open: looking for file with name 'as-is' on all search paths.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\C:\Program Files\EA Games\Ultima Online Mondain's Legacy\\animinfo.mul' with mode 'wb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\C:\Program Files\EA Games\Ultima Online Mondain's Legacy\\animinfo.mul' with mode 'wb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\tutorial\C:\Program Files\EA Games\Ultima Online Mondain's Legacy\\animinfo.mul' with mode 'wb'.
+FileManager::open: trying to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacyclient\tutorial\C:\Program Files\EA Games\Ultima Online Mondain's Legacy\\animinfo.mul' with mode 'wb'.
+UOReport::warning: FileManager::open: failed to open 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\\animinfo.mul' with given mode 'wb' on any of paths in searchPaths.
+UOReport::warning: FileManager::open ('fuzzy find'): looking for 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\\animinfo.mul' on searchPaths, but ignoring case.
+FileManager::addOpenFile: file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\\animinfo.mul' added to list. size is 0.
+FileManager::open: seeking to start of file.
+FileManager::close: closing file 'C:\Program Files\EA Games\Ultima Online Mondain's Legacy\\animinfo.mul'.
+FileManager::shutdown: stopping...
+FileManager::reportOpenFiles:
+ open timesOpened         size numreads            givenName actualName
+  yes           9         1840        0               uo.cfg C:\Program Files\EA Games\Ultima Online Mondain's Legacy\uo.cfg
+   no           1          768        1          palette.mul C:\Program Files\EA Games\Ultima Online Mondain's Legacy\palette.mul
+   no           1         2000     2000         animinfo.mul C:\Program Files\EA Games\Ultima Online Mondain's Legacy\animinfo.mul
+   no           1       265500   105375             hues.mul C:\Program Files\EA Games\Ultima Online Mondain's Legacy\hues.mul
+   no           1       884909     8985            fonts.mul C:\Program Files\EA Games\Ultima Online Mondain's Legacy\fonts.mul
+   no           1      1036288   197632         tiledata.mul C:\Program Files\EA Games\Ultima Online Mondain's Legacy\tiledata.mul
+   no           1          330       51         skillgrp.mul C:\Program Files\EA Games\Ultima Online Mondain's Legacy\skillgrp.mul
+   no           1          231        0            login.cfg C:\Program Files\EA Games\Ultima Online Mondain's Legacy\login.cfg
+   no           1          410        0         keynames.txt C:\Program Files\EA Games\Ultima Online Mondain's Legacy\keynames.txt
+   no           1         1154        0           macros.txt C:\Program Files\EA Games\Ultima Online Mondain's Legacy\macros.txt
+   no           1       119714        1           speech.mul C:\Program Files\EA Games\Ultima Online Mondain's Legacy\speech.mul
+   no           1      1122304    83968         animdata.mul C:\Program Files\EA Games\Ultima Online Mondain's Legacy\animdata.mul
+   no           1         1048        0         uobscene.lst C:\Program Files\EA Games\Ultima Online Mondain's Legacy\uobscene.lst
+   no           1            0        1           ignore.lst C:\Program Files\EA Games\Ultima Online Mondain's Legacy\ignore.lst
+   no           1         4612        1         langcode.iff C:\Program Files\EA Games\Ultima Online Mondain's Legacy\langcode.iff
+   no           1         1816        1            intro.enu C:\Program Files\EA Games\Ultima Online Mondain's Legacy\intro.enu
+   no           1          124        1          gt_0000.enu C:\Program Files\EA Games\Ultima Online Mondain's Legacy\gt_0000.enu
+   no           1          372        1          gt_1010.enu C:\Program Files\EA Games\Ultima Online Mondain's Legacy\gt_1010.enu
+   no           1          302        1          gt_2000.enu C:\Program Files\EA Games\Ultima Online Mondain's Legacy\gt_2000.enu
+   no           1           84        1          gt_2310.enu C:\Program Files\EA Games\Ultima Online Mondain's Legacy\gt_2310.enu
+   no           1          198        1          gt_2400.enu C:\Program Files\EA Games\Ultima Online Mondain's Legacy\gt_2400.enu
+   no           1          276        1          gt_5000.enu C:\Program Files\EA Games\Ultima Online Mondain's Legacy\gt_5000.enu
+   no           1           90        1          gt_5400.enu C:\Program Files\EA Games\Ultima Online Mondain's Legacy\gt_5400.enu
+   no           1          654        1         skilname.enu C:\Program Files\EA Games\Ultima Online Mondain's Legacy\skilname.enu
+   no           1         4240        1             chat.enu C:\Program Files\EA Games\Ultima Online Mondain's Legacy\chat.enu
+   no           1         5322        1          options.enu C:\Program Files\EA Games\Ultima Online Mondain's Legacy\options.enu
+   no           1            0        0 C:\Program Files\EA Games\Ultima Online Mondain's Legacy\\animinfo.mul C:\Program Files\EA Games\Ultima Online Mondain's Legacy\\animinfo.mul
+FileManager::shutdown: stopped.
+PerformanceManager::stop:
+PerformanceManager::finalReport:
+ cummulative time spent inside each function.
+ notes:
+  - it is possible that after a really long run of the code, these times may overflow.
+  - times are not hierarchical in the sense that subroutines do not 'take time away from' their calling routines.
+ 0.00% 30899645.000000 for DoPing()
+ 13.81% 308339964456.000000 for CGumpManager::DrawAllGumps
+ 0.01% 120250887.000000 for UpdateDirtyRects()
+ 13.82% 308614654050.000000 for GraphicManager::Draw_Map_Isometric()
+ 0.00% 27679613.000000 for MacroManager::HeartBeat()
+ 0.00% 30470509.000000 for WeatherManager::UpdateWeather()
+ 0.00% 20061079.000000 for EditManager::Update()
+ 0.01% 130129620.000000 for CObjectManager::UpdateMovement()
+ 0.00% 83706293.000000 for MoveManager::Update()
+ 0.00% 28607650.000000 for PathFindUpdate()
+ 0.00% 57891725.000000 for SpamTick()
+ 0.00% 1589413.000000 for CObjectManager::AgeBarks()
+ 0.01% 248488446.000000 for CGumpManager::Update()
+ 0.20% 4527767793.000000 for MouseManager::Update()
+ 18.58% 414758916086.000000 for CApp::TimerUpdate(FALSE)
+ 3.58% 79904885268.000000 for GodModeManager::update()
+ 15.69% 350239927811.000000 for LanguageTranslationServer::update()
+ 5.11% 114129919833.000000 for SoundManager::Update()
+ 100.00% 2232326636506.000000 for whole frame update
+MemoryManager::shutdown: stopping...
+MemoryManager::report:
+ MemoryManager__OVERLOAD_GLOBAL_NEW_AND_DELETE not defined. nothing to report.
+MemoryManager::stopped.
+UOReport::message: UOReport: stopping...
